@@ -14,3 +14,9 @@ class hw9task64 {
         RecNum(number - 1);
         
     }
+    static void Main() {
+    Console.WriteLine("Введите число: ");
+    int N = Convert.ToInt32(Console.ReadLine());
+    RecNum(N);
+  }
+}
